@@ -1,0 +1,10 @@
+
+public/app/data/packages
+public/app/services/data/packages
+public/app/services/__pycache__
+public/app/SwiftPackagesIndex
+public/app/static/images
+public/app/services/data-old
+public/app/services/data/packages.zip
+public/app/static/images.zip
+*.zip

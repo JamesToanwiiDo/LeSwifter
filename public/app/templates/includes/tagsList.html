@@ -1,0 +1,9 @@
+{% for tag in tags %}
+<div class='topic-tag'>
+	<a href={{ url_for(routeMethod, **{valueKey: tag}) }}>
+	<p class="my-0 mx-1" style="font-size: 14px; color: #6666ff">
+		{{ tag }}
+	</p>
+	</a>
+</div>
+{% endfor %}

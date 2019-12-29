@@ -1,0 +1,19 @@
+FROM swift:latest
+
+MAINTAINER Joseph Van Boxtel "joseph.vanboxtel@wsu.edu"
+
+RUN apt-get update -y && \
+    apt-get install -y python3 && \
+    apt-get install -y python3-pip python3-dev
+
+# We copy just the requirements.txt first to leverage Docker cache
+COPY ./public/requirements.txt /public/requirements.txt
+
+RUN pip3 install -r /public/requirements.txt
+
+COPY ./public /public
+
+WORKDIR /public/app
+
+ENTRYPOINT ["/usr/bin/python3"]
+CMD ["services/scraper.py"]

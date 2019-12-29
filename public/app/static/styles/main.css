@@ -1,0 +1,56 @@
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ul {
+	position: relative
+}
+
+.navbar {
+	background-color: #263238;
+}
+
+.page-footer {
+	background-color: #263238;
+}
+
+.navbar-nav {
+	width: 100%;
+}
+
+.rowSP {
+	background-color: #263238;
+}
+
+.form-control {
+	display: block;
+	float: left;
+}
+
+.btn.btn-primary {
+	display: block;
+	float: right;
+}
+
+.topic-tag {
+    display: inline-block;
+    padding: .08em .3em;
+
+    white-space: nowrap;
+    background-color: #f1f8ff;
+    border-radius: 3px;
+}
+
+.img-thumbnail {
+	background-color: #FFFFFF;
+}
+
+.page-footer {
+	background-color: #263238;
+}
+
+a:not([href]):not([tabindex]) {
+	background-color: transparent;
+}
