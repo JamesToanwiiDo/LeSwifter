@@ -1,5 +1,4 @@
-# CS-483-FProject
-## Final Project for CS 483 Web Data
+# LeSwifter
 
 ## Swift Package Database
 Created by: Joseph Van Boxtel & Toan Minh Do
